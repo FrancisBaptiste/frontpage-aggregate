@@ -51,6 +51,9 @@ $Ydir = "articles/$YYear/$YMonth/$Yday";
 
 $yesterdayVar = "$Yyear-$Ymonth-$Yday";
 
+//if the date is set we need to check if there's a day after this
+//and add a link for that day
+
 ?>
 
 
@@ -60,7 +63,7 @@ $yesterdayVar = "$Yyear-$Ymonth-$Yday";
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Fontpage Vancouver</title>
+		<title>FontPage Vancouver</title>
 		<link rel="stylesheet" type="text/css" href="style.css" />
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 		<!--[if IE]>

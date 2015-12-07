@@ -1,0 +1,7 @@
+
+#if i wanted to do routing I would use this
+
+#Options -MultiViews
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^ index.php [QSA,L]

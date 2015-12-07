@@ -1,0 +1,65 @@
+html{
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+#wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.article{
+	position: relative;
+	float:left;
+	width: 100%;
+}
+
+.article a{
+	display:block;
+}
+
+.article img{
+	width: 100%;
+	height: auto;
+	display:block;
+}
+
+.article h1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: black;
+	background: rgba(0,0,0,0.6);
+	font-size: 1em;
+	padding: 10px;
+	margin: 0;
+}
+.article h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+.article h2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #666;
+	background: rgba(100, 100, 100, 0.75);
+	font-size: 0.7em;
+	padding: 5px;
+	margin: 0;
+	font-weight: normal;
+}
+.article h2 a{
+	color: #FFF;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+
+
+@media (min-width: 800px) {
+	.article{
+		width: 50%;
+	}
+}

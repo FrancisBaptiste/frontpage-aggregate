@@ -1,0 +1,35 @@
+.inbox-message{
+	text-decoration: none;
+	color: black;
+}
+
+.message-head{
+	font-weight: bold;
+}
+
+.message-wrapper p{
+	font-size: 0.9em;
+	color: #AAA;
+}
+
+/*
+#new-interactions .message-head::before{
+	content: '';
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgb(0, 255, 0);
+	display:block;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: -30px;
+}
+
+#new-interactions .message-wrapper{
+	margin-left: 30px;
+}
+*/
+
+#old-interactions .inbox-message .message-wrapper{
+	background: #EEE;
+}
